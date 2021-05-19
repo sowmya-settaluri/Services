@@ -1,0 +1,183 @@
+
+/*===========================
+    1. COMMON css 
+===========================*/
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800");
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: #121212; }
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+img {
+  max-width: 100%; }
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+  text-decoration: none;
+  outline: none; }
+
+a:focus,
+a:hover {
+  text-decoration: none; }
+
+i,
+span,
+a {
+  display: inline-block; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #121212;
+  margin: 0px; }
+
+h1 {
+  font-size: 48px; }
+
+h2 {
+  font-size: 36px; }
+
+h3 {
+  font-size: 28px; }
+
+h4 {
+  font-size: 22px; }
+
+h5 {
+  font-size: 18px; }
+
+h6 {
+  font-size: 16px; }
+
+ul, ol {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none; }
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #121212;
+  margin: 0px; }
+
+.bg_cover {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%; }
+
+  /*===== All Section Title Style =====*/
+.section-title .title {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 55px;
+  color: #121212; }
+  @media (max-width: 767px) {
+    .section-title .title {
+      font-size: 30px;
+      line-height: 40px; } }
+
+.section-title .text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #6c6c6c;
+  margin-top: 24px; }
+
+  /*===========================
+      3.SERVICES css 
+===========================*/
+.services-area {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  position: relative; }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .services-area {
+      padding-top: 100px;
+      padding-bottom: 100px; } }
+  @media (max-width: 767px) {
+    .services-area {
+      padding-top: 80px;
+      padding-bottom: 80px; } }
+
+.services-content .services-icon i {
+  font-size: 64px;
+  color: #0067f4; }
+
+.services-content .services-content {
+  padding-left: 15px; }
+  @media (max-width: 767px) {
+    .services-content .services-content {
+      padding-left: 0;
+      padding-top: 15px; } }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .services-content .services-content {
+      padding-left: 15px;
+      padding-top: 0; } }
+  .services-content .services-content .services-title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #121212; }
+  .services-content .services-content .text {
+    font-size: 14px;
+    line-height: 20px;
+    color: #121212;
+    margin-top: 8px; }
+
+.services-image {
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  top: 0;
+  right: 0; }
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .services-image {
+      width: 34%; } }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .services-image {
+      position: relative;
+      width: 720px;
+      margin: 0 auto; } }
+  @media (max-width: 767px) {
+    .services-image {
+      position: relative;
+      width: 100%;
+      padding-left: 15px;
+      padding-right: 16px;
+      margin: 0 auto; } }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .services-image {
+      position: relative;
+      width: 540px;
+      margin: 0 auto; } }
+  .services-image .image {
+    max-width: 580px;
+    width: 100%; }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .services-image .image {
+        margin: 0 auto;
+        padding-top: 50px; } }
+    @media (max-width: 767px) {
+      .services-image .image {
+        margin: 0 auto;
+        padding-top: 50px; } }
+    .services-image .image img {
+      width: 100%; }
+
